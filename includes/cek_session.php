@@ -1,0 +1,9 @@
+<?php 
+// include/cek_session.php
+session_start();
+
+if (!isset($_SESSION['login']) || $_SESSION['login'] !== true) {
+    header('location: login.php');
+    exit;
+}
+?>
