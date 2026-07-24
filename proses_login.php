@@ -26,7 +26,7 @@ if (mysqli_num_rows($hasil) == 1) {
                 VALUES ('$id_user', 'Login', '$waktu')";
         mysqli_query($koneksi, $log);
 
-        header('Location: dasboard.php');
+        header('Location: dashboard.php');
         exit;
     } else {
         $_SESSION['pesan_error'] = 'Password salah!';
