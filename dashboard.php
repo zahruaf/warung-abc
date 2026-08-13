@@ -169,6 +169,14 @@ body{
         </a>
         <?php } ?>
 
+        <?php if ($_SESSION['role'] == 'admin' || $_SESSION['role'] == 'pelanggan') { ?>
+        <a href="tambah_pelanggan.php" class="card">
+            <div class="icon">👥</div>
+            <h3>pelanggan</h3>
+            <p>data pelanggan.</p>
+        </a>
+        <?php } ?>
+
     </div>
 
     <div class="footer">
