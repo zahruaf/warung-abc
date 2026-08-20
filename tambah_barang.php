@@ -45,13 +45,13 @@
         }
 
         .header h1 {
-            color: #007e11;
+            color: #000000;
             font-size: 28px;
             margin-bottom: 8px;
         }
 
         .header p {
-            color: #777;
+            color: #4b4b4b;
             font-size: 14px;
         }
 
@@ -69,7 +69,7 @@
         .form-group input {
             width: 100%;
             padding: 12px 14px;
-            border: 1px solid #0b9946;
+            border: 1px solid #000000;
             border-radius: 8px;
             font-size: 15px;
             outline: none;
@@ -77,8 +77,8 @@
         }
 
         .form-group input:focus {
-            border-color: #2563eb;
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+            border-color: #00c41a;
+            box-shadow: 0 0 0 3px rgba(0, 255, 0, 0.12);
         }
 
         .form-actions {
@@ -101,7 +101,7 @@
         }
 
         .btn-simpan {
-            background: #009414;
+            background: #000000;
             color: white;
         }
 
